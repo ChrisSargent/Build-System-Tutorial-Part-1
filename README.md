@@ -16,9 +16,9 @@ This is a ‘tutorial’ I wrote whilst setting up Grunt myself, predominantly i
 **Part 2**
 - Auto-Prefixing CSS and using CSSNext for the future
 - Uglify JS and CSS (compress / minify)
+- JSHint
 
 **Part 3**
-- JSHint
 - Local Server
 - Live Reload
 
@@ -166,7 +166,7 @@ $ npm install grunt-contrib-watch --save-dev
 
 As before this automatically included a reference to Watch in my package.json file.
 
-Then add the following to the Gruntfile:
+Then I added the following to the Gruntfile:
 
 ```js
 grunt.loadNpmTasks('grunt-contrib-watch');
@@ -186,4 +186,5 @@ $ grunt
 
 My .scss files and .js files will now be automatically compiled and concatenated whenever I save them and will be output to my build folder for deployment. As a by-product, by writing this tutorial and putting it on Github, I'm also getting more familiar with Git terminal commands and trying to write my code like other people might see it sometime.
 
+##Finally
 So that’s it for now; next up, I’m adding the Auto-Prefixer and minifier / Uglifier.
