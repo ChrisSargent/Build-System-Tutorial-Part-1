@@ -5,7 +5,7 @@
 
 I've been thinking for some time that I really need to sort out a 'build system' for myself. After watching several tutorials I'd noticed that most of the presenters were using them and they certainly seemed to help for automating a lot of the mundane tasks I was constantly doing. I also wanted to start making my projects a lot more 'familiar' and trying to build them out in as modular, resuable fashion as possible. To do this I knew I needed a task manager and Grunt or Gulp seem to be the apps of choice just now so I decided to try Grunt. The thing to remember about Grunt is that it is __just__ a task runner; nothing more, nothing less. You install it and then you need to tell it which tasks to run and when to run them.
 
-This is a ‘tutorial’ I wrote whilst setting up Grunt myself, predominantly inspired by this video: https://www.youtube.com/watch?v=TMKj0BxzVgw from Will at [Learn Code Academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw) and several videos from Travis at [Dev Tips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ) (If you haven't already you should definitely check out their YouTube channels). I don’t follow it exactly because I’m setting it up for my workflow, but I was certainly inspired by the videos to do it. Another really good video is from Chris Coyier of CSS Tricks here: https://www.youtube.com/watch?v=Mr2VBRdRYak.
+CAVEAT! This isn't really meant to be a tutorial as such because this is the first time I've done this and I'm not sure I'm using best practices etc. I just wanted to write it to help me learn and maybe help someone else if they ran in to some of the same issues. I wrote it whilst setting up Grunt myself, predominantly inspired by this video: https://www.youtube.com/watch?v=TMKj0BxzVgw from Will at [Learn Code Academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw) and several videos from Travis at [Dev Tips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ) (If you haven't already you should definitely check out their YouTube channels). I don’t follow it exactly because I’m setting it up for my workflow, but I was certainly inspired by the videos to do it. Another really good video is from Chris Coyier of CSS Tricks here: https://www.youtube.com/watch?v=Mr2VBRdRYak.
 
 **Part 1**
 - Install Grunt
@@ -13,7 +13,7 @@ This is a ‘tutorial’ I wrote whilst setting up Grunt myself, predominantly i
 - Setup Concatenate Javascript
 - Setup watch on save
 
-**Part 2**
+**[Part 2](https://github.com/ChrisSargent/Build-System-Tutorial-Part-2)**
 - Auto-Prefixing CSS and using CSSNext for the future
 - Uglify JS and CSS (compress / minify)
 - JSHint
